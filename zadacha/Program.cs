@@ -8,8 +8,7 @@
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []*/
 
-
-void methodArray (string [] array)
+void MethodArray (string [] array)
 {
      string[] newarr = new string[array.Length];
     
@@ -26,4 +25,7 @@ void methodArray (string [] array)
 
 string [] arr = {"1234", "156", "-2", "computer science"};
 
-methodArray(arr);
+MethodArray(arr);
+
+
+
